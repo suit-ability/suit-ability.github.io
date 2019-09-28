@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "jekyll", "4.0.0"
-gem 'tzinfo-data'
 
 group :development do
   gem "jekyll-last-modified-at"
