@@ -7,6 +7,8 @@ export default function Footer() {
     <header id="header">
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
+      <p>{config.consolation}</p>
+      <p>{config.callToAction}</p>
     </header>
   );
 }

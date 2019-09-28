@@ -8,9 +8,8 @@ import SlideShow from '../components/SlideShow';
 
 var settings = {
   images: [
-    { url: require('../assets/images/bg01.jpg'), position: 'center' },
-    { url: require('../assets/images/bg02.jpg'), position: 'center' },
-    { url: require('../assets/images/bg03.jpg'), position: 'center' },
+    { url: require('../assets/images/option1.jpg'), position: 'center' },
+    { url: require('../assets/images/option4.jpg'), position: 'center' }
   ],
   // Delay.
   delay: 6000,

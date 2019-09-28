@@ -19,14 +19,16 @@ export class EmailForm extends Component {
   render() {
     const { message } = this.state;
     return (
-      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#">
+      //<form id="signup-form" onSubmit={this.onSubmit} method="post" action="https://formspree.io/a.robson755@gmail.com">
+      <form id="signup-form" method="post" action="https://formspree.io/suitabilityCIC@gmail.com">
         <input
           type="email"
-          name="email"
+          name="_replyto"
           id="email"
           placeholder="Email Address"
+          required 
         />
-        <input type="submit" value="Sign Up" />
+        <input type="submit" value="Keep me updated!" />
         <span className={`${message ? 'visible success' : ''} message`}>
           {message}
         </span>

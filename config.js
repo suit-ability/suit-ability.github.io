@@ -1,36 +1,27 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Eventually', // <title>
-  manifestName: 'Eventually',
+  siteTitle: 'Suitability', // <title>
+  manifestName: 'Suitability',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#FFFFFF',
+  manifestThemeColor: '#FFFFFF',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   // social
-  heading: 'Eventually',
-  subHeading:
-    "A simple template for telling the world when you'll launch your next big thing.",
+  heading: 'Suitability',
+  subHeading: "Are you looking for employment in the North East? Are you worried you don't have appropriate workwear for your interview?",
+  consolation: "We're here to help. Soon...",
+  callToAction: 'Let’s stay in touch.',
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://twitter.com/suit_ability',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:suitabilityCIC@gmail.com',
     },
   ],
 };
