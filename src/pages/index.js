@@ -9,7 +9,7 @@ import SlideShow from '../components/SlideShow';
 var settings = {
   images: [
     { url: require('../assets/images/option1.jpg'), position: 'center' },
-    { url: require('../assets/images/option4.jpg'), position: 'center' }
+    { url: require('../assets/images/positve.jpg'), position: 'center' }
   ],
   // Delay.
   delay: 6000,
