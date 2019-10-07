@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
@@ -17,6 +18,7 @@ var settings = {
 
 const IndexPage = () => (
   <Layout>
+    <SEO />
     <Header />
     <EmailForm />
     <Footer />

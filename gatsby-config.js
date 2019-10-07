@@ -4,6 +4,11 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    titleTemplate: config.siteTitleTemplate,
+    description: config.siteDescription,
+    url: config.url,
+    image: config.image,
+    twitterUsername: config.twitterUsername,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -23,3 +28,5 @@ module.exports = {
     'gatsby-plugin-offline',
   ],
 };
+
+
