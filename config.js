@@ -3,6 +3,7 @@ module.exports = {
   siteTitleTemplate: "%s · Suited for success",
   siteDescription: "Are you looking for employment in the North East? Are you worried you don't have appropriate workwear for your interview? We're here to help.",
   url: 'https://suit-ability.com',
+  siteUrl: 'https://suit-ability.com',
   image: '/Profile.png',
   twitterUsername: '"suit_ability',
   manifestName: 'Suitability',

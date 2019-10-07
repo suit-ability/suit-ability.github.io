@@ -7,6 +7,7 @@ module.exports = {
     titleTemplate: config.siteTitleTemplate,
     description: config.siteDescription,
     url: config.url,
+    siteUrl: config.siteUrl,
     image: config.image,
     twitterUsername: config.twitterUsername,
   },
